@@ -1,0 +1,9 @@
+
+†
+java:S1319i"iThe type of "vehiculos" should be an interface such as "List" rather than the implementation "ArrayList".(Ξή„8„ομμ1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(Ηµν‘8ε­εμμ1
+O
+java:S6126"2Replace this String concatenation with Text block.(κƒ¶Ύ8ομμ1
+γ
+java:S6541"ΕA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 87 to 64, Complexity from 17 to 14, Nesting Level from 6 to 2, Number of Variables from 16 to 6.(Ηµν‘8υομμ1
