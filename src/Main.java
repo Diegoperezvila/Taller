@@ -74,10 +74,10 @@ public class Main {
                             );
                             int piezaIndex = Integer.parseInt(piezaSeleccionada);
                             if (piezaIndex >= 0 && piezaIndex < vehiculoReparar.getPiezas().size()) {
-                                // Realizar reparación de la pieza seleccionada
+
                                 vehiculoReparar.getPiezas().remove(piezaIndex);
                                 JOptionPane.showMessageDialog(null, "Pieza reparada correctamente.");
-                                // Si no hay más piezas, quitar vehículo de la lista de reparación
+
                                 if (vehiculoReparar.getPiezas().isEmpty()) {
                                     vehiculos.remove(index);
                                     JOptionPane.showMessageDialog(null, "Vehículo reparado completamente.");
